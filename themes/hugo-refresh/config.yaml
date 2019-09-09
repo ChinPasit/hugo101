@@ -9,7 +9,7 @@ blackfriday:
   hrefTargetBlank: true
 
 Taxonomies:
-  tag: "tags"
+  tag: "เมนู"
 
 
 # Supported fonts are:
@@ -44,10 +44,11 @@ params:
 
   # sidebar options
   sidebar:
+    fontFamily: "Niramit"
     # option to specify the logo of the sidebar
     logo: "/images/refresh-square.svg"
     # option to specify the font of the sidebar
-    fontFamily: "Niramit" # "Open Sans"  font-family: 'Niramit', sans-serif;
+    
 
   # navbar options
   navbar:
@@ -67,6 +68,7 @@ params:
 
   # homepage options
   homepage:
+    fontFamily: "Niramit" 
     # option to specify the title in the homepage
     title: ห้องสมุดออนไลน์
     # option to specify the subtitle in the homepage
@@ -78,6 +80,7 @@ params:
 
   # footer options
   footer:
+    fontFamily: "Niramit" 
     # option to specify the logo in the footer
     logo: "/images/refresh-square.svg"
     # option to specify your contact email in the footer

@@ -36,7 +36,7 @@
     <div id="navbar-menu" class="navbar-menu is-static">
       <!-- <div class="navbar-start"></div> -->
       <div class="navbar-end">
-        <a href="{{ "about" | relURL }}" class="navbar-item is-secondary">
+        <a href="{{- .Permalink -}}"class="navbar-item is-secondary">
           นักพัฒนาระบบ
         </a>
         {{- range .Site.Sections -}}
@@ -60,7 +60,7 @@
           </div>
           {{- else -}}
           <a href="{{- .Permalink -}}" class="navbar-item is-secondary">
-            {{- .Title -}}
+            <!-- {{- .Title -}}  : Posts--> 
           </a>
           {{- end -}}
         {{- end -}}
