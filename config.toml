@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://assignment1-project.firebaseapp.com"
 languageCode = "en-us"
 title = "PSU"
 theme = "hugo-refresh"

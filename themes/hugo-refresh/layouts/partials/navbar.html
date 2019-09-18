@@ -48,9 +48,9 @@
               {{- .Title -}}
             </a>
             <div class="navbar-dropdown">
-              <!-- <a href="{{- .Permalink -}}" class="navbar-item">
+               <a href="{{- .Permalink -}}" class="navbar-item">
                 > All
-              </a> -->
+              </a> 
               {{- range .Sections -}}
               <a href="{{- .Permalink -}}" class="navbar-item">
                 {{- .Title -}}
@@ -60,7 +60,7 @@
           </div>
           {{- else -}}
           <a href="{{- .Permalink -}}" class="navbar-item is-secondary">
-            <!-- {{- .Title -}}  : Posts--> 
+           {{- .Title -}} 
           </a>
           {{- end -}}
         {{- end -}}
